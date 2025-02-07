@@ -163,21 +163,25 @@ footer {
     }
 }
 @media screen and (max-width: 768px) {
-    .container {
-        width:90%;
-    }
-    header h1 {
-        text-align: center;
-        float: none;
-    }
     header ul {
-        text-align: center;
-        float: none;
+        display: flex;
+        flex-direction: row; /* Agar elemen sejajar dalam satu baris */
+        justify-content: center; /* Pusatkan menu */
+        gap: 15px; /* Beri jarak antar item */
+        padding: 0;
+        list-style: none;
+        flex-wrap: wrap; /* Jika terlalu panjang, bisa turun ke bawah */
     }
-    .box .col-4 {
-        width:100%;
-        float: none;
-        margin-bottom:20px;
 
+    header ul li {
+        display: inline-block;
+    }
+
+    header ul li a {
+        display: block;
+        padding: 10px 15px; /* Atur ukuran tombol */
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
     }
 }
