@@ -52,12 +52,12 @@ header ul li a:hover {
 }
 .banner {
     height:30vh;
-    background-image: url('../img/banner8.jpg');
+    background-image: url('../img/banner_new.jpg');
     background-size: cover;
     position: relative;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
 }
 .banner:after {
     content:'';
