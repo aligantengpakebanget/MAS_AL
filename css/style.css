@@ -9,7 +9,7 @@ a {
 }
 .medsos {
     padding:15px 0;
-    background-color: #2e1b73;
+    background-color:#008B8B;
 }
 .medsos ul li {
     display: inline-block;
@@ -30,7 +30,7 @@ a {
 header h1 {
     float: left;
     padding: 15px 0;
-    color: #2e1b73;
+    color: #008B8B;
 }
 header ul {
     float: right;
@@ -43,11 +43,11 @@ header ul li a {
     display: inline-block;
 }
 header ul li a:hover {
-    background-color: rgb(120, 120, 167);
+    background-color: #16d4d4;
     color: white;
 }
 .active {
-    background-color: #2e1b73;
+    background-color: #008B8B;
     color: white;
 }
 .banner {
@@ -67,7 +67,7 @@ header ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(46, 27, 115, .6)
+    background-color: rgba(0, 139, 139, .6)
 }
 .banner h2 {
     color: white;
@@ -81,7 +81,7 @@ section {
 section h3 {
     text-align: center;
     padding: 20px 0;
-    color: #2e1b73;
+    color: #008B8B;
     margin-bottom: 25px;
 }
 .about
@@ -89,17 +89,17 @@ section h3 {
     padding-bottom:150px;
 }
 .about p {
-    color: #2e1b73;
+    color: #008B8B;
     word-spacing: 2px;
     line-height: 25px;
     text-align: center;
     margin-bottom: 20px;
 }
 .skills {
-    color: #2e1b73;
+    color: #008B8B;
 }
 .box {
-    color: #2e1b73;
+    color: #008B8B;
 }
 .box:after {
     content:'';
@@ -128,7 +128,7 @@ section h3 {
 }
 footer {
     padding: 30px 0;
-    background-color: #333;
+    background-color: #66CDAA;
     color: white;
     text-align: center;
 }
@@ -149,13 +149,13 @@ footer {
     height: 100px;
     border:3px solid #fff;
     border-radius: 50%;
-    border-top-color: #2e1b73;
-    border-right-color: #2e1b73;
-    border-bottom-color: #2e1b73;
+    border-top-color: #008B8B;
+    border-right-color: #008B8B;
+    border-bottom-color: #008B8B;
     animation: putar .8s linear infinite;
 }
 .label {
-    background-color: #2e1b73;
+    background-color: #008B8B;
     color: #fff;
 }
 @keyframes putar {
