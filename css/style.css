@@ -9,11 +9,11 @@ a {
 }
 .medsos {
     padding:15px 0;
-    background-color:#008B8B;
+    background-color:#CD5C5C;
 }
 .medsos ul li {
     display: inline-block;
-    color: white;
+    color: #fff;
     margin-right: 10px;
     font-size:25px;
 }
@@ -30,7 +30,7 @@ a {
 header h1 {
     float: left;
     padding: 15px 0;
-    color: #008B8B;
+    color: #CD5C5C;
 }
 header ul {
     float: right;
@@ -43,11 +43,11 @@ header ul li a {
     display: inline-block;
 }
 header ul li a:hover {
-    background-color: #16d4d4;
+    background-color: #FFE4E1;
     color: white;
 }
 .active {
-    background-color: #008B8B;
+    background-color: #CD5C5C;
     color: white;
 }
 .banner {
@@ -67,7 +67,7 @@ header ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 139, 139, .6)
+    background-color: rgba(205, 92, 92, .6)
 }
 .banner h2 {
     color: white;
@@ -81,7 +81,7 @@ section {
 section h3 {
     text-align: center;
     padding: 20px 0;
-    color: #008B8B;
+    color: #CD5C5C;
     margin-bottom: 25px;
 }
 .about
@@ -89,17 +89,17 @@ section h3 {
     padding-bottom:150px;
 }
 .about p {
-    color: #008B8B;
+    color: #CD5C5C;
     word-spacing: 2px;
     line-height: 25px;
     text-align: center;
     margin-bottom: 20px;
 }
 .skills {
-    color: #008B8B;
+    color: #CD5C5C;
 }
 .box {
-    color: #008B8B;
+    color: #CD5C5C;
 }
 .box:after {
     content:'';
@@ -127,9 +127,9 @@ section h3 {
     margin:20px 0;  
 }
 footer {
-    padding: 30px 0;
-    background-color: #66CDAA;
-    color: white;
+    padding: 20px 0;
+    background-color: #FFF5EE;
+    color: #FFD700;
     text-align: center;
 }
 .bg-loader {
@@ -149,13 +149,13 @@ footer {
     height: 100px;
     border:3px solid #fff;
     border-radius: 50%;
-    border-top-color: #008B8B;
-    border-right-color: #008B8B;
-    border-bottom-color: #008B8B;
+    border-top-color: #CD5C5C;
+    border-right-color: #CD5C5C;
+    border-bottom-color: #CD5C5C;
     animation: putar .8s linear infinite;
 }
 .label {
-    background-color: #008B8B;
+    background-color: #CD5C5C;
     color: #fff;
 }
 @keyframes putar {
