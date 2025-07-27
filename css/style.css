@@ -1,19 +1,23 @@
-* {
-    padding:0;
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
+* * {
+    padding: 0;
+    margin: 0;
+    font-family: 'Nunito', Arial, Helvetica, sans-serif;
 }
+body {
+    background-color: #1C1C1C;
+  }
+  
 a {
-    color: inherit;
+    color: #F5F5F5;
     text-decoration: none;
 }
 .medsos {
     padding:15px 0;
-    background-color:#CD5C5C;
+    background-color:#0D0D0D;
 }
 .medsos ul li {
     display: inline-block;
-    color: #fff;
+    color: #F5F5F5;
     margin-right: 10px;
     font-size:25px;
 }
@@ -30,7 +34,7 @@ a {
 header h1 {
     float: left;
     padding: 15px 0;
-    color: #CD5C5C;
+    color: #F5F5F5;
 }
 header ul {
     float: right;
@@ -43,16 +47,16 @@ header ul li a {
     display: inline-block;
 }
 header ul li a:hover {
-    background-color: #FFE4E1;
-    color: white;
+    background-color: #443a3a;
+    color: #F5F5F5;
 }
 .active {
-    background-color: #CD5C5C;
+    background-color: #0D0D0D;
     color: white;
 }
 .banner {
     height:30vh;
-    background-image: url('../img/banner_new.jpg');
+    background-image: url('../img/Desain\ tanpa\ judul.png');
     background-size: cover;
     position: relative;
     display: flex;
@@ -67,13 +71,13 @@ header ul li a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(205, 92, 92, .6)
+    background-color: rgba(0, 0, 0, 0.6)
 }
 .banner h2 {
-    color: white;
+    color: #FFF5EE;
     z-index: 1;
     padding: 20px 25px;
-    border:3px solid white;
+    border:3px solid #FFF5EE;
 }
 section {
     padding:25px 0;
@@ -81,7 +85,7 @@ section {
 section h3 {
     text-align: center;
     padding: 20px 0;
-    color: #CD5C5C;
+    color: #FFF5EE;
     margin-bottom: 25px;
 }
 .about
@@ -89,17 +93,17 @@ section h3 {
     padding-bottom:150px;
 }
 .about p {
-    color: #CD5C5C;
+    color: #FFF5EE;
     word-spacing: 2px;
     line-height: 25px;
     text-align: center;
     margin-bottom: 20px;
 }
 .skills {
-    color: #CD5C5C;
+    color: #FFF5EE;
 }
 .box {
-    color: #CD5C5C;
+    color: #FFF5EE;
 }
 .box:after {
     content:'';
@@ -122,6 +126,7 @@ section h3 {
     line-height: 70px;
     font-size: 20px;
     margin:0 auto;
+    color: #FFD700;
 }
 .box .col-4 h4 {
     margin:20px 0;  
@@ -133,7 +138,7 @@ footer {
     text-align: center;
 }
 .bg-loader {
-    background-color: #eee;
+    background-color: #FFF5EE;
     position: fixed;
     top: 0;
     left: 0;
@@ -147,7 +152,7 @@ footer {
 .bg-loader .loader {
     width: 100px;
     height: 100px;
-    border:3px solid #fff;
+    border:3px solid #FFF5EE;
     border-radius: 50%;
     border-top-color: #CD5C5C;
     border-right-color: #CD5C5C;
@@ -155,7 +160,7 @@ footer {
     animation: putar .8s linear infinite;
 }
 .label {
-    background-color: #CD5C5C;
+    background-color:#0D0D0D;
     color: #fff;
 }
 @keyframes putar {
